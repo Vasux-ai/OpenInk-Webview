@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <div>
       <div className="mx-8 sm:mx-16 xl:mx-24 relative">
-        <div className="text-center mt-20 mb-8">
+        <div className="text-center mt-7 mb-8">
           <div className="inline-flex items-center justify-center gap-4 px-6 py-1.5 mb-4 border border-primary/40 bg-primary/10 rounded-full text-sm">
             <p>New:AI feature integrated</p>
             <img src={assets.star_icon} alt="start-icon" className="w-2.5" />
@@ -17,9 +17,7 @@ export const Header = () => {
           </h1>
 
           <p className="my-6 sm:my-8 max-w-2xl m-auto max-sm:text-xs text-gray-500">
-            {" "}
-            This is your space to think out loud to share what matters and to
-            write about the things you love. <br />
+            This is your space to think out loud, share what matters, and write about the things you love. You can also gather knowledge here. <br />
             <span className="text-primary">Start your journey today!</span>
           </p>
 
