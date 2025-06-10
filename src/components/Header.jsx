@@ -29,7 +29,7 @@ export const Header = () => {
         <img
           src={assets.gradientBackground}
           alt="gradientBackground"
-          className="absolute -top-50 -z-1 opacity-50"
+          className="absolute -top-50 -z-1 opacity-10"
         />
       </div>
     </div>

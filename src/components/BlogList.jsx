@@ -4,7 +4,11 @@ import { motion } from "motion/react";
 import BlogCart from "./BlogCart";
 
 const BlogList = () => {
+    console.log("BlogList Rendered");
+    
     const [Menu, SetMenu] = useState("All");
+    console.log("Selected Menu:", Menu);
+    
     return (
         <div>
             <div className="flex justify-center gap-4 sm:gap-8 my-10 relative">
